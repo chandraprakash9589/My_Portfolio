@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import auth from "../../Assets/Projects/Auth.png"
-import booksHub from "../../Assets/Projects/BookHub.png";
+import booksHub from "../../Assets/Projects/monogramHealth.png";
 import chatify from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/placementcell.png";
+import bitsOfCode from "../../Assets/Projects/empoyeemanagement.png";
 import Ers from '../../Assets/Projects/ERS.png'
 function Projects() {
   return (
@@ -23,10 +23,12 @@ function Projects() {
             <ProjectCard
               imgPath={booksHub}
               isBlog={false}
-              title="BooksHub"
-              description="Discover, Compare and Buy Books.The online Hub for all Book Lovers where you can get your hands on the best offer price."
-              ghLink="https://github.com/aditya7ss/BooksHub"
-              demoLink="https://bookshub-ier7.onrender.com"
+              title="Monogram Health"
+              description="Monogram Health is a comprehensive healthcare portal designed to improve patient outcomes by enabling
+users to book doctor appointments, access and monitor health reports, streamline care delivery, and facilitate
+communication between healthcare providers and patients with complex medical needs."
+              // ghLink=""
+              demoLink="https://www.monogramhealth.com"
             />
           </Col>
 
@@ -34,13 +36,17 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Placement Cell"
-              description="This placement cell web application is created for users/employees to manage interviews of students, and allocate students to companies` interviews."
-              ghLink="https://github.com/aditya7ss/Placement_cell"
-              demoLink="https://placement-cell-gtdd.onrender.com/sign-up"
+              title="Employment Management Portal"
+              description="A comprehensive employee management portal designed to streamline internal operations, enhance
+employee engagement, and automate daily workflows. The platform allows employees to register, log in, send
+daily standups, apply for various types of leaves, update their skills, manage profiles, and seek support through an
+integrated help desk system.
+"
+              ghLink="https://github.com/chandraprakash9589/Employees-management"
+              demoLink="https://employees-management-lemon.vercel.app/"
             />
           </Col>
-
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Ers}
@@ -50,22 +56,22 @@ function Projects() {
               ghLink="https://github.com/aditya7ss/Employee_Review-System.github.ibo"
               demoLink="https://kind-pear-clam-vest.cyclic.app/"
             />
-          </Col>
+          </Col> */}
 
 
 
-          
-          <Col md={4} className="project-card">
+
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
               title="Hospital Api"
               description="An API created using NodeJS for the doctors of a hospital to cater to the need of the healthcare system during Covid-19. "
               ghLink="https://github.com/aditya7ss/Hospital_Api"
-              demoLink="https://hospital-api-6xfd.onrender.com"      
+              demoLink="https://hospital-api-6xfd.onrender.com"
             />
-          </Col>
-          <Col md={4} className="project-card">
+          </Col> */}
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={auth}
               isBlog={false}
@@ -74,7 +80,7 @@ function Projects() {
               ghLink="https://github.com/aditya7ss/Autherization"
               demoLink="#"
             />
-          </Col>
+          </Col> */}
 
         </Row>
       </Container>
